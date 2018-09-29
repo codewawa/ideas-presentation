@@ -1,0 +1,22 @@
+{
+  "name": "ideas-presentation",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "http://github.com/codewawa/ideas-presentation",
+  "author": "micorix",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "spectacle": "^5.1.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.1"
+  },
+  "scripts": {
+    "start": "npm-run-all -l -p serve open-tunnel",
+    "serve": "parcel index.html",
+    "open-tunnel": "lt --port 1234"
+  }
+}
